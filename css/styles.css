@@ -42,15 +42,35 @@ li a {
     background:url(../img/hero.jpg) no-repeat center center white ;
 }
 
+.fontSize {
+    font-size:12px;
+    margin-bottom: 35px;
+}
+
 h3 {
     color:white;
     text-align: center;
     margin-top:-10px;
 }
 
+.featText {
+    text-align:justify;
+}
+
 .btn-default {
     background-color: skyblue;
     color: white;
+    font-size: 12px;
+}
+
+.thumbnail {
+    background-color: lightgray;
+    width: 200px;
+    height:300px;
+}
+
+.imgProd {
+    width: 180px
 }
 
 .services {
@@ -100,4 +120,8 @@ li .social {
     font-size:12px;
     color:gray;
     margin-top: 5px;
+}
+
+.copyMargin {
+    margin-bottom: 0px;
 }
