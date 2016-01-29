@@ -1,0 +1,103 @@
+
+a {
+    text-decoration: none;
+}
+#nav {
+    height:70px;
+    background-color: #ffffff;
+}
+
+.navbar {
+    border:0px;
+    margin-bottom:0px;
+}
+
+.navbar-brand, .logo {
+    width:65px;
+}
+
+.logo {
+    padding-right: 0px;
+    margin:-7px 50px auto;
+}
+
+.brand {
+    font-family: 'Satisfy', cursive;
+    color:orange;
+    padding-left: 8px;
+    font-size: 32px;
+}
+
+.menu {
+    margin-top:20px;
+}
+
+li a {
+    font-size: 18px;
+    color:skyblue;
+}
+
+.jumbotron {
+    height:450px;
+    background:url(../img/hero.jpg) no-repeat center center white ;
+}
+
+h3 {
+    color:white;
+    text-align: center;
+    margin-top:-10px;
+}
+
+.btn-default {
+    background-color: skyblue;
+    color: white;
+}
+
+.services {
+    text-align:center;
+}
+
+.adopt {
+    color: skyblue;
+}
+
+.footer {
+    background-color:#333;
+    color:white;
+    height:150px;
+    width:100%;
+    /*margin:0px 0px -20px 0px;*/
+    padding:20px 0px;
+}
+.verticalLine {
+    height:100px;
+    border-left: 1px solid gray;
+}
+
+.footerPadding {
+    padding-top:20px;
+    padding-left: 0px;
+    text-decoration: none;
+    color:white;
+}
+li {
+    text-decoration: none;
+    display:flex;
+}
+
+li .social {
+    font-size: 16px;
+    color: white;
+}
+
+.footerImg {
+    width: 105px;
+    margin-top: -5px;
+}
+
+.copyCenter {
+    text-align:center;
+    font-size:12px;
+    color:gray;
+    margin-top: 5px;
+}
