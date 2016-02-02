@@ -2,9 +2,9 @@
 a {
     text-decoration: none;
 }
-#nav {
-    height:70px;
-    background-color: #ffffff;
+
+a:hover {
+    text-decoration:none;
 }
 
 .navbar {
@@ -13,12 +13,12 @@ a {
 }
 
 .navbar-brand, .logo {
-    width:65px;
+    width:75px;
 }
 
 .logo {
     padding-right: 0px;
-    margin:-7px 50px auto;
+    /*margin:-7px 50px auto;*/
 }
 
 .brand {
@@ -37,9 +37,25 @@ li a {
     color:skyblue;
 }
 
+li a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+#jumbo {
+    width: 100%;
+    padding: 0px;
+}
+
 .jumbotron {
     height:450px;
     background:url(../img/hero.jpg) no-repeat center center white ;
+    border-radius: 0px;
+}
+
+.jumbotron h3 {
+    text-align: center;
+    color: white;
 }
 
 .fontSize {
@@ -47,7 +63,7 @@ li a {
     margin-bottom: 35px;
 }
 
-h3 {
+.prodHead {
     color:white;
     text-align: center;
     margin-top:-10px;
@@ -66,7 +82,7 @@ h3 {
 .thumbnail {
     background-color: lightgray;
     width: 200px;
-    height:300px;
+    height:305px;
 }
 
 .imgProd {
@@ -124,4 +140,130 @@ li .social {
 
 .copyMargin {
     margin-bottom: 0px;
+}
+
+/*===================================CONTACT CSS=============================*/
+
+.black {
+    color:black;
+}
+
+.marginFooter {
+    width:100%;
+    margin:0px;
+}
+
+footer {
+    background-color: #333;
+    /*width:100%;*/
+}
+
+.imgFooter {
+    width:90px;
+    padding-top: 15px;
+}
+
+.footerInfo {
+    /*color:white;
+    border-left: 1px solid gray;*/
+    padding-top: 15px;
+}
+
+/*.footerInfo:hover {
+    color:orange;
+}*/
+
+.socialFooter a {
+    color:white !important;
+    border-left: 1px solid gray;
+    padding-left: 8px;
+}
+
+.socialFooter:hover {
+    color:orange;
+}
+
+.copy {
+    color:gray;
+}
+
+@media (max-width:991px) {
+    .thumbnail {
+        width: 150px;
+        height: 290px;
+    }
+}
+
+@media(max-width:767px){
+    .logoImg {
+        padding-left: 0px;
+    }
+    .menu {
+        margin-left: -10px;
+        margin-bottom: 10px;
+    }
+    .xsNav {
+        display: inline-flex;
+        padding-left: 30px;
+    }
+    .xsFeatured {
+        text-align: center;
+    }
+    .thumbnail {
+        width:100%;
+        margin:10px auto;
+        height: 364px;
+        text-align: center;
+    }
+    .imgProd {
+        width: 255px;
+        margin-bottom: 5px;
+    }
+    .caption p {
+        font-size: 12px;
+    }
+    .footerInfo {
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+    .footerInfo ul {
+        margin-left: -15px;
+        text-align:center;
+    }
+    .imgFooter {
+        width:100px;
+        padding-top: 8px;
+    }
+    #social {
+        display:inline-block;
+        /*text-align: center;*/
+        margin: 0px 18px auto;
+    }
+    #social a {
+        border-left: 0px;
+    }
+    .socialFooter a i {
+        font-size: 36px;
+    }
+    .address {
+        padding-left: 25px !important;
+    }
+}
+
+@media(max-width:550px) {
+    .logoImg {
+        margin-left:29%;
+    }
+    .smallImg {
+        width:48%;
+    }
+    .smallNm {
+        width:52%;
+    }
+}
+
+@media(max-width:390px) {
+    .logoImg {
+        margin-left:24%;
+    }
 }
