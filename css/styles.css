@@ -45,11 +45,16 @@ li a:hover {
 #jumbo {
     width: 100%;
     padding: 0px;
+    border-radius: 0px;
 }
 
 .jumbotron {
     height:450px;
     background:url(../img/hero.jpg) no-repeat center center white ;
+    border-radius: 0px;
+}
+
+.container-fluid .jumbotron {
     border-radius: 0px;
 }
 
