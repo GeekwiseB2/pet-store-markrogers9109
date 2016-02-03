@@ -97,6 +97,10 @@ li a:hover {
     color: skyblue;
 }
 
+footer {
+    margin-bottom: 0px;
+}
+
 .footer {
     background-color:#333;
     color:white;
